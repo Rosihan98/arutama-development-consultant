@@ -138,9 +138,8 @@ Terima kasih.
         <div className="container nav-inner">
           <a href="#beranda" className="nav-brand">
             <img
-              src="/images/logo-arutama-white.png"
+              src={`${import.meta.env.BASE_URL}images/logo-arutama-white.png`}
               alt="ARUTAMA Development & Consultant"
-              className="nav-logo"
             />
           </a>
 
@@ -753,9 +752,8 @@ Terima kasih.
           <div className="footer-brand">
             <div className="brand">
               <img
-                src="/images/logo-arutama-white.png"
+                src={`${import.meta.env.BASE_URL}images/logo-arutama-white.png`}
                 alt="ARUTAMA Development & Consultant"
-                className="footer-logo"
               />
             </div>
 
