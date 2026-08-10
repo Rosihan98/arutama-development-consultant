@@ -142,7 +142,6 @@ Terima kasih.
               alt="ARUTAMA Development & Consultant"
             />
           </a>
-
           <nav className={`nav-menu ${menuOpen ? "active" : ""}`}>
             <a href="#beranda" onClick={() => setMenuOpen(false)}>
               Beranda

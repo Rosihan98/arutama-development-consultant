@@ -3620,3 +3620,23 @@ textarea:focus-visible {
     line-height: 1.35;
   }
 }
+.nav-brand {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.nav-brand img {
+  width: 170px;
+  height: auto;
+  max-height: 50px;
+  object-fit: contain;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .nav-brand img {
+    width: 140px;
+    max-height: 44px;
+  }
+}
